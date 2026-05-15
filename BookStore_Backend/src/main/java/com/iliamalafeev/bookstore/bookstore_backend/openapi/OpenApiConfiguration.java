@@ -20,7 +20,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
         ),
         servers = {
                 @Server(description = "Local environment", url = "http://localhost:8080"),
-                @Server(description = "Production environment", url = "https://production-url-here.com"),
+                @Server(description = "Production environment", url = "https://bookstore-fullstack-fwou.onrender.com"),
         }
 )
 @SecurityScheme(
